@@ -18,7 +18,7 @@ async def start(c, m, cb=False):
         print(e)
 
     BUTTONS = [[
-        InlineKeyboardButton("My Father 🧔", url=f"https://t.me/{username}"),
+        InlineKeyboardButton("My Father 🧔", url=f"https://t.me/Mangalasseryy_neelakandan"),
         InlineKeyboardButton("Updates Group 🔰", url="https://t.me/MMF_chat")
         ],[
         InlineKeyboardButton("🖥️ Join Channel 🖥️", url="https://t.me/tamil_rockers_mallu")
