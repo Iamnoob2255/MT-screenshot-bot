@@ -19,9 +19,9 @@ async def start(c, m, cb=False):
 
     BUTTONS = [[
         InlineKeyboardButton("My Father 🧔", url=f"https://t.me/{username}"),
-        InlineKeyboardButton("Updates Channel 🔰", url="https://t.me/Mo_Tech_YT")
+        InlineKeyboardButton("Updates Group 🔰", url="https://t.me/MMF_chat")
         ],[
-        InlineKeyboardButton("🖥️ How To Own 🖥️", url="https://youtu.be/lGlczIZ4HTI")
+        InlineKeyboardButton("🖥️ Join Channel 🖥️", url="https://t.me/tamil_rockers_mallu")
         ],[
         InlineKeyboardButton("Help ⁉️", callback_data="help"),
         InlineKeyboardButton("Settings ⚙", callback_data="set+settings")
@@ -31,7 +31,7 @@ async def start(c, m, cb=False):
 
     TEXT = f"👋 Hi {m.from_user.mention},\n\nI'm Screenshot Generator Bot. I can provide screenshots, sample video from "
     TEXT += "your video files and also can trim. For more details check help.\n\n"
-    TEXT += f"**Maintained By:** {mention}"
+    TEXT += f"**Maintained By: @MMF_CHAT ** {mention}"
 
     if cb:
         try:
